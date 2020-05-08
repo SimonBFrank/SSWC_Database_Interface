@@ -40,7 +40,7 @@ This directory holds pictures of all the flowers in the database.  They are disp
 
 ### /Table Logs/
 
-In the python GUI you are able to export the audit logs of any of the tables.  When you export the files, the "<Table Name>_LOG.txt" will appear in the folder.  You can use these logs to see any changes you have made to the database and potentially revert actions in the database.
+In the python GUI you are able to export the audit logs of any of the tables.  When you export the files, the "TableName_LOG.txt" will appear in the folder.  You can use these logs to see any changes you have made to the database and potentially revert actions in the database.
 
 ### Database_Interface.py
 
