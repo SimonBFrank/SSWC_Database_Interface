@@ -60,6 +60,6 @@ Holds the username and password information for login.
 
 ## Author
 
-Simon Frank
-linkedin.com/in/simon-frank/
-github.com/SimonBFrank/
+- Simon Frank
+- linkedin.com/in/simon-frank/
+- github.com/SimonBFrank/
