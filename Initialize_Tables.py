@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 def initialize():
-	print('Currently intializing tables and setting up triggers...')
+	print('Currently initializing tables and setting up triggers...')
 	connection = sqlite3.connect('flowers2019.db')
 	c = connection.cursor()
 	c.execute("""
@@ -39,7 +39,7 @@ def initialize():
 	begin
 	INSERT into SIGHTINGS_LOG VALUES ("Update", OLD.name, NEW.name, OLD.person, NEW.person, OLD.location, NEW.location, OLD.sighted, NEW.sighted);
 	END;""")
-	print('1.) Tables and triggers associated with SIGHTINGS is complete.')
+	print('1.) Tables and triggers associated with SIGHTINGS are complete.')
 	c.execute("""
 	CREATE table if not EXISTS MEMBERS_LOG(
 	Change text NOT NULL,

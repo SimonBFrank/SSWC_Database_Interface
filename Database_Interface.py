@@ -5,10 +5,10 @@ from PIL import ImageTk, Image
 import pandas as pd
 from datetime import date
 
-
-
 # KNOW BUGS:
 #-> Query and delete have problem when closed and reopened
+#-> If multiple windows of the same page are opened at same time, the program breaks
+
 def register():
 	global register_screen
 	register_screen = Toplevel(main_screen)
