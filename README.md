@@ -2,6 +2,8 @@
 
 This is a python GUI that allows you to interact with the Southern Sierra Wildflower Club's (SSWC) database, an organization whose members are interested in observing wildflowers in their native habitat in the southernpart of the Sierra Nevada mountains of California.
 
+In order to use this code you must first run the **Initialize_Tables.py** code.  This will setup the tables and triggers used for the audit logs.  This code should only ever be run once.  Then you can run **Database_Interface.py** to start the GUI and begin interacting with the database.
+
 ## Functionality
 
 * Login system that requires you to signup and login using username and password.  There are no requirements for the username and password and there is no encryption on the password.  This system is not secure and should not be used to hold any important data
